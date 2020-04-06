@@ -135,7 +135,7 @@ for (int i=0 ; i<T; i++)
           cout << "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" << endl;
           if (sqrt(pow((int(j*1./2.))-j*1./2.,2))<0.01)
           {
-            err+=pow(sqrt(pow(U_12(j,0)-U_1(int(j/2),0),2)),2);
+            err+=pow(sqrt(pow(U_12(j,0)-U_1(int(j/2),0),2)),2)*dx;
           }
 
         }
